@@ -6,7 +6,7 @@ function Footer() {
     return (
         <div className='footer-section h-full'>
             <div className="footer-top-section bg-black text-white mt-2">
-                <div className="top-container p-4 md:p-14 flex justify-evenly items-center flex-col gap-6 md:flex-row">
+                <div className="top-container p-4 md:p-14 flex justify-evenly items-center flex-col gap-10 md:flex-row">
                     <div className="top-container-left">
                         <h1 className=" font-bold text-3xl md:text-5xl mb-4">Ready to get started?</h1>
                         <button className="py-2 px-4 mx-2 font-bold bg-[--primary-color] rounded-full text-sm">SIGN UP FOR FREE</button>
