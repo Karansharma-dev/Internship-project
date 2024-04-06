@@ -63,7 +63,11 @@ body {
 
 :root{
   --tw-bg-opacity:1;
-  --primary-color:rgb(87 108 219/var(--tw-bg-opacity))
+  --primary-color:rgb(87 108 219/var(--tw-bg-opacity));
+  --secondary-color:rgb(243 233 114/var(--tw-bg-opacity));
+}
+.newsletter-container{
+  background-image: url('./hero-bg.png');
 }
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)

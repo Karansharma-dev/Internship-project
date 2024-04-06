@@ -33,13 +33,6 @@ const LatestPost = [{
     userImage: './user-5.png',
     userName: "Guillermo Pérez"
   },
-  {
-    img: './img-9.webp',
-    title: 'Leveraging press and partnerships for user acquisition and credibility — Adam Allore, Wavve Boating',
-    desc: 'Adam Allore reveals partnership and PR strategies on the Sub Club podcast.',
-    userImage: './user-7.jpg',
-    userName: 'David Barnard'
-  },
 ]
 
 

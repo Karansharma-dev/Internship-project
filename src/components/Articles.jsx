@@ -3,11 +3,14 @@ import Card from './Card'
 import Cardfull from './Cardfull'
 import Newsletter from './Newsletter'
 import LatestPost from './SampleData'
+import Pages from './Pages'
+import Ad from './Ad'
 
 function Articles() {
 
   return (
     <>
+    <Pages/>
       <div className='articles-section flex justify-center flex-wrap gap-10 p-4 md:p-10'>
         {LatestPost.map((post) => {
           return (
@@ -35,6 +38,7 @@ function Articles() {
           </div>
           )
         })}
+        <Ad/>
       </div>
       <div className="card-full bg-gray-100 max-w-full">
         <Cardfull img={'./poster-img-2.webp'} title={'How to run a holiday sale in App Store Connect for iOS subscription apps'} desc={'Make sure your subscription apps are ready for Black Friday and Christmas sale season.'}/>
