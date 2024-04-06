@@ -17,8 +17,9 @@
 }
 @media only screen and (max-width: 600px) {
   .swiper-slide {
+    display: flex !important;
     flex-direction: column;
-    gap: 60px;
+    gap: 30px;
   }
 }
 
@@ -30,8 +31,8 @@
 }
 
 .swiper-pagination-bullet {
-  width: 28px;
-  height: 28px;
+  width: 28px !important;
+  height: 28px !important;
   padding: 4px;
   font-weight: bold;
   text-align: center;
@@ -39,11 +40,11 @@
   font-size: 14px;
   color: #000;
   opacity: 1;
-  background: rgba(255, 255, 255, 0.2);
+  background-color: #fff !important;
 }
 
 .swiper-pagination-bullet-active {
-  background: #d9ff00;
+  background: #d9ff00 !important;
 }
 
 /*

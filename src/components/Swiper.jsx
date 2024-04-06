@@ -76,7 +76,7 @@ const SwiperPost2 = [
         <SwiperSlide>
         {SwiperPost1.map((post) => {
           return (
-          <div className="card-container justify-center gap-10 w-[330px] md:w-[370px] h-[470px] border-2 rounded-xl overflow-hidden">
+          <div className="card-container justify-center gap-10 w-[280px] md:w-[370px] h-[470px] border-2 rounded-xl overflow-hidden">
             <div className="card-image w-full h-50 bg-cover overflow-hidden">
               <img className="w-full h-full" src={post.img} alt="" />
             </div>
@@ -104,7 +104,7 @@ const SwiperPost2 = [
         <SwiperSlide>
            {SwiperPost2.map((post) => {
           return (
-          <div className="card-container justify-center gap-10 w-[330px] md:w-[370px] h-[470px] border-2 rounded-xl overflow-hidden">
+          <div className="card-container justify-center gap-10 w-[280px] md:w-[370px] h-[470px] border-2 rounded-xl overflow-hidden">
             <div className="card-image w-full h-50 bg-cover overflow-hidden">
               <img className="w-full h-full" src={post.img} alt="" />
             </div>
