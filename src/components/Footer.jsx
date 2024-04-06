@@ -25,7 +25,7 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            <div className="footer-bottom-section grid grid-cols-2 gap-5 md:grid-cols-5 py-20 px-40 justify-evenly h-full ">
+            <div className="footer-bottom-section grid grid-cols-2 gap-5 md:grid-cols-5 p-10 md:py-20 md:px-40 justify-evenly h-full ">
                 <div className="footer-bottom-image hidden md:flex flex-col justify-between">
                     <img className="w-20" src="./logo.png" alt="" />
                     <div>

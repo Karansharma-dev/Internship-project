@@ -71,7 +71,7 @@ const SwiperPost2 = [
       <Swiper
         pagination={pagination}
         modules={[Pagination]}
-        className="mySwiper w-full p-10"
+        className="mySwiper w-full p-2 md:p-10"
       >
         <SwiperSlide>
         {SwiperPost1.map((post) => {
