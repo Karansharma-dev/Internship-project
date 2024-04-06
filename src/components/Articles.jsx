@@ -11,7 +11,7 @@ function Articles() {
       <div className='articles-section flex justify-center flex-wrap gap-10 p-4 md:p-10'>
         {LatestPost.map((post) => {
           return (
-          <div className="card-container justify-center gap-10 w-[370px] md:h-[470px] border-2 rounded-xl overflow-hidden">
+          <div className="card-container justify-center gap-10 w-[370px] md:h-[470px] border-[1px] rounded-xl overflow-hidden">
             <div className="card-image w-full h-50 bg-cover overflow-hidden">
               <img className="w-full h-full" src={post.img} alt="" />
             </div>
@@ -39,7 +39,7 @@ function Articles() {
       <div className="card-full bg-gray-100 max-w-full">
         <Cardfull img={'./poster-img-2.webp'} title={'How to run a holiday sale in App Store Connect for iOS subscription apps'} desc={'Make sure your subscription apps are ready for Black Friday and Christmas sale season.'}/>
       </div>
-      <div className='articles-section flex justify-center flex-wrap gap-10 p-10'>
+      <div className='articles-section flex justify-center flex-wrap gap-10 p-4 md:p-10'>
         <Card img={'./img-7.webp'} />
         <Card img={'./img-12.png'} />
         <Card img={'./img-13.png'} />

@@ -15,7 +15,7 @@ function Cardfull({img,title,desc}) {
 
                 <div className="user-profile flex gap-2">
                     <div className="user-image w-10 h-10 rounded-full bg-cover overflow-hidden">
-                        <img className="w-full h-full" src="./thumbnail6.png" alt="" />
+                        <img className="w-full h-full" src="./user-2.jpg" alt="" />
                     </div>
                     <div className="user-details leading-4 flex flex-col items-center">
                         <span className="font-semibold py-1">Thomas Petit</span>
