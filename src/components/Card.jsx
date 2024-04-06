@@ -1,16 +1,16 @@
 import React from 'react'
 
-function Card() {
+function Card({img}) {
   return (
-          <div className="card-container justify-center gap-10 w-[340px] border-2 rounded-xl overflow-hidden">
+          <div className="card-container justify-center gap-10 w-[370px] border-2 rounded-xl overflow-hidden">
                 <div className="card-image w-full h-50 bg-cover overflow-hidden">
-                    <img className="w-full h-full" src="./shopping.jpg" alt="" />
+                    <img className="w-full h-full" src={img} alt="" />
                 </div>
                 <div className="card-text flex flex-col gap-4 p-4 justify-between">
                     <div className="card-text-container w-full">
                     <button className="px-4 py-1 rounded-full border-2 border-green-400 text-green-400 text-xs">Latest Post</button>
                     <h1 className="font-bold w-full text-xl py-1">A Practical Guide to Apple Search Ads</h1>
-                    <p className="py-1 text-sm">Why it's a channel worth exploring to grow to app</p>
+                    <p className="py-1 text-sm md:text-xl ">Why it's a channel worth exploring to grow to app</p>
                     </div>
                    
                     <div className="user-profile flex gap-2 items-center">
@@ -19,7 +19,7 @@ function Card() {
                         </div>
                         <div className="user-details leading-4 flex flex-col items-center">
                             <span className="font-semibold  text-sm">Thomas Petit</span>
-                            <p className="text-xs">June 07,2022</p>
+                            <p className="text-sm">June 07,2022</p>
                         </div>
                     </div>
                 </div>

@@ -14,6 +14,11 @@
   gap:40px;
 }
 
+@media only screen and (max-width: 600px) {
+  .swiper-slide{
+    flex-direction: column;
+  }
+}
 .swiper-slide img {
   display: block;
   width: 100%;
@@ -22,12 +27,13 @@
 }
 
 .swiper-pagination-bullet {
-  width: 20px;
-  height: 20px;
+  width: 28px;
+  height: 28px;
+  padding: 4px;
   font-weight: bold;
   text-align: center;
   line-height: 20px;
-  font-size: 12px;
+  font-size: 14px;
   color: #000;
   opacity: 1;
   background: rgba(255, 255, 255, 0.2);
@@ -41,7 +47,15 @@
 /*
 ! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com
 */
-
+html{
+  width: 100%;
+  overflow-x: hidden;
+  font-family: Helvetica Neue,Helvetica Neue Fallback,ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji
+}
+body{
+  width: 100%;
+  overflow-x: hidden;
+}
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
