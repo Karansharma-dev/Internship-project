@@ -12,7 +12,7 @@ function Footer() {
                         <button className="py-2 px-4 mx-2 font-bold bg-[--primary-color] rounded-full text-sm">SIGN UP FOR FREE</button>
                         <a className=" text-xs font-bold pb-1 border-b-2 border-red-400" href="#">TALK TO SALES</a>
                     </div>
-                    <div className="top-container-right rounded-2xl border-2 p-7 w-[350px] md:w-[410px]">
+                    <div className="top-container-right rounded-2xl border-2 p-7 w-[350px] md:w-[410px] flex flex-col gap-4">
                         <h1 className="text-2xl font-light">"At any levels of scale, RevenueCat just works"</h1>
                         <div className="user-profile flex gap-2 items-center mt-4">
                             <div className="user-image w-8 h-8 rounded-full bg-cover overflow-hidden">
@@ -22,6 +22,7 @@ function Footer() {
                                 <span className="font-normal  text-sm">Thomas Petit, wellingtown</span>
                             </div>
                         </div>
+                            <a className="w-[110px] md:w-[130px] text-xs md:text-sm font-bold pb-1 border-b-2 border-red-400" href="#">READ CASE STUDY</a>
                     </div>
                 </div>
             </div>

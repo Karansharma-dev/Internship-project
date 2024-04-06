@@ -8,6 +8,8 @@ import Ad from './Ad'
 
 function Articles() {
 
+
+
   return (
     <>
     <Pages/>
@@ -20,7 +22,7 @@ function Articles() {
             </div>
             <div className="card-text flex flex-col gap-4 p-4 justify-between">
               <div className="card-text-container w-full">
-                <button className="px-4 py-1 rounded-full border-2 border-green-400 text-green-400 text-xs">Latest Post</button>
+                <button className="px-4 py-1 rounded-full border-2 border-green-400 text-green-400 text-sm font-semibold">{post.niche}</button>
                 <h1 className="font-bold w-full text-xl py-1 line-clamp-2 lg:text-[18px] xs:text-[16px]">{post.title}</h1>
                 <p className="py-1 text-md md:text-xl line-clamp-3">{post.desc}</p>
               </div>
