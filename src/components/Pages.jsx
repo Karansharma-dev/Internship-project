@@ -4,7 +4,7 @@ import { IoWifi } from "react-icons/io5";
 
 function Pages() {
     return (
-        <div className="pages-section w-full flex flex-col md:flex-row justify-between items-center px-2 md:px-[10rem]">
+        <div className="pages-section w-full flex flex-col md:flex-row justify-between items-center py-2 px-2 md:px-[10rem]">
             <ul className="flex gap-1 font-semibold cursor-pointer text-sm md:text-[18px]">
                 <li className="py-2 px-2 md:px-4 bg-[--secondary-color] rounded-full">All articles</li>
                 <li className="py-2 px-2 md:px-4  rounded-full">Company</li>
