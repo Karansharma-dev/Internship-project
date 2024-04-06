@@ -10,7 +10,8 @@
   font-size: 18px;
   background: #fff;
   /* Center slide text vertically */
-  display: flex;
+  display: flex !important;
+  flex-direction: row !important;
   justify-content: center;
   align-items: center;
   gap: 40px;
@@ -18,9 +19,10 @@
 @media only screen and (max-width: 600px) {
   .swiper-slide {
     display: flex !important;
-    flex-direction: column;
+    flex-direction: column !important;
     gap: 30px;
   }
+  
 }
 
 .swiper-slide img {
