@@ -20,7 +20,7 @@ function Header() {
 
     return (
         <div className='header-section h-full w-full relative'>
-            <div className="header-mobile bg-white">
+            <div className="header-mobile bg-white block md:hidden">
                 <div className="header-icon flex w-full justify-between p-5 border-b-[1px] border-gray-300 fixed top-0 z-[1000] bg-white">
                     <img className="w-[140px]" src="./logo.png" alt="" />
                     <button className="text-4xl" id="toggle-button" >{handleValue?<IoMdCloseCircle onClick={handleClose} />:    <RxHamburgerMenu onClick={handleBurger}/> }</button>
