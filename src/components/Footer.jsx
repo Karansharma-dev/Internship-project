@@ -16,7 +16,7 @@ function Footer() {
                         <h1 className="text-2xl font-light">"At any levels of scale, RevenueCat just works"</h1>
                         <div className="user-profile flex gap-2 items-center mt-4">
                             <div className="user-image w-8 h-8 rounded-full bg-cover overflow-hidden">
-                                <img className="w-full h-full" src="./user-2.jpg" alt="" />
+                                <img className="w-full h-full" src="./user-data/user-2.jpg" alt="" />
                             </div>
                             <div className="user-details leading-4 flex flex-col items-center">
                                 <span className="font-normal  text-sm">Thomas Petit, wellingtown</span>

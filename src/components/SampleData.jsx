@@ -1,41 +1,41 @@
 const LatestPost = [{
-    img: './img-6.png',
-    title: 'Leveraging press and partnerships for user acquisition and credibility — Adam Allore, Wavve Boating',
+    img: './Posts/img-6.png',
+    title: 'Here at RevenueCat, Employee are Customers Too',
     desc: 'Adam Allore reveals partnership and PR strategies on the Sub Club podcast.',
-    userImage: './user-1.jpg',
+    userImage: './user-data/user-1.jpg',
     userName: 'David Barnard',
     niche:'Engineering'
   },
   {
-    img: './img-2.webp',
-    title: 'Optimizing paywall placement: The key to unlocking more app subscribers',
+    img: './Posts/img-2.webp',
+    title: 'App Store Optimization Guide for Subscription Apps',
     desc: 'Want a big boost in subscribers? It’s time to stop being so cautious with paywall placement.',
-    userImage: './user-2.jpg',
+    userImage: './user-data/user-2.jpg',
     userName: 'Peter Meinertzhagen',
     niche:'Growth'
   },
   {
-    img: './img-3.webp',
-    title: 'Why ratings and reviews in ASO are more important than ever',
+    img: './Posts/img-3.webp',
+    title: 'Account deletion rules on the App Store',
     desc: 'Adam Allore reveals partnership and PR strategies on the Sub Club podcast.',
-    userImage: './user-3.jpg',
+    userImage: './user-data/user-3.jpg',
     userName: 'David Barnard',
     niche:'Finance'
   },
   {
-    img: './img-7.webp',
-    title: '“I love that constraints breed creativity. That’s the way I like to build a business.” ',
+    img: './Posts/img-7.webp',
+    title: 'How We Work Remotely at RevenueCat',
     desc: "Redbox Mobile's Anil Ozdemir on how recent changes in the app stores mean that it's time to have a dedicated approach to boosting.",
-    userImage: './user-4.jpg',
+    userImage: './user-data/user-4.jpg',
     userName: 'Anil Ozdemir',
     niche:'Engineering'
 
   },
   {
-    img: './img-6.png',
+    img: './Posts/img-6.png',
     title: 'Scaling smoothly: RevenueCat’s data-caching techniques for 1.2 billion daily API requests',
     desc: 'A deep-dive into the techniques that fuel our efficient cache management system.',
-    userImage: './user-5.png',
+    userImage: './user-data/user-5.png',
     userName: "Guillermo Pérez",
     niche:'Company'
   },
