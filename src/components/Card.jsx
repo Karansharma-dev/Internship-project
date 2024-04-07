@@ -8,7 +8,7 @@ function Card({img}) {
                 </div>
                 <div className="card-text flex flex-col gap-4 p-4 justify-between">
                     <div className="card-text-container w-full">
-                    <button className="px-4 py-1 rounded-full border-2 border-green-400 text-green-400 text-xs">Latest Post</button>
+                    <button className="px-4 py-1 rounded-full border-2 border-green-400 text-green-400 text-sm font-semibold">Latest Post</button>
                     <h1 className="font-bold w-full text-xl py-1">A Practical Guide to Apple Search Ads</h1>
                     <p className="py-1 text-sm md:text-[18px] ">Why it's a channel worth exploring to grow to app</p>
                     </div>
